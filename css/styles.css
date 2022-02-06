@@ -5,12 +5,8 @@
 .link {
   text-decoration: none;
 }
-/*.contact-list{
-    list-style: none;
-}*/
-
 .current {
-    color: #2196f3;
+  color: #2196f3;
 }
 
 /*-----ПЕРЕМЕННЫЕ-----*/
@@ -32,8 +28,6 @@
   --latter-spacing-mean: 0.03em;
   --latter-spacing-minimum: 0.02em;
   --latter-spacing-maximum: 0.06em;
-
-  --
 }
 
 /*-----СТИЛИ, КОТОРЫЕ НАСЛЕДУЮТСЯ-----*/
@@ -42,13 +36,12 @@ body {
   font-size: 14px;
   background-color: var(--background-color-primary);
   letter-spacing: var(--latter-spacing-mean);
-  border: 1px 
-  solid #ECECEC;
+  border: 1px solid #ececec;
 }
 
 /*-----HEDDER-----*/
-.header{
-    background: #FFFFFF;
+.header {
+  background: #ffffff;
 }
 .logo-header {
   font-family: var(--font-family-logo);
@@ -67,8 +60,8 @@ body {
   letter-spacing: var(--latter-spacing-minimum);
   color: var(--color-theme-light-primary);
 }
-.nav-link:hover,
-.nav-link:focus {
+.properties-link:hover,
+.properties-link:focus .properties-link:active {
   color: var(--color-accent);
 }
 .communication {
@@ -143,9 +136,9 @@ a {
 .studio-section-team {
   background-color: var(--background-color-section-team);
 }
-.studio-section-team-list-img{
-/*background: url();*/
-border-radius: 0px;
+.studio-section-team-list-img {
+  /*background: url();*/
+  border-radius: 0px;
 }
 .studio-section-team-header {
   font-weight: 700;
@@ -179,16 +172,44 @@ border-radius: 0px;
 }
 
 /*-----FOOTER-----*/
-.footer{
-    background: #2F303A;
-    font-style​:​normal;
+.footer {
+  background: #2f303a;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2097px;
 }
-.logo-footer{
+address {
+  font-style: normal;
+}
+.information-contacts {
+  width: 231px;
+  height: 81px;
+  left: 215px;
+  top: 2208px;
+}
+.logo-footer {
   font-family: var(--font-family-logo);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: var(--latter-spacing-mean);
-  color:#FFFFFF;
+  color: #ffffff;
 }
-.contacts
+.address-link {
+  font-family: var(--font-family-primary);
+  letter-spacing: var(--latter-spacing-mean);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71px;
+  color: var(--color-theme-dark-primary);
+}
+.mailo-link,
+.phone-link {
+  font-family: var(--font-family-primary);
+  letter-spacing: var(--latter-spacing-mean);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71px;
+  color: rgba(255, 255, 255, 0.6);
+}
