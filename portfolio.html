@@ -5,24 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     
     <header>
         <nav>
-            <a href="./index.html" hreflang="en"><span>Web</span>Studio</a>
-            <ul>
-                <!--Навигация на другие станицы-->
-                <li><a href="./index.html">Студия</a></li>
-                <li><a href="#filter">Портфолио</a></li>
-                <li><a href="#contacts">Контакты</a></li>
+            <a class="link logo" href="./index.html" hreflang="en">
+                <span class="logo-style">Web</span>Studio
+            </a>
+            <ul class="list navigation">
+                <li><a class="link  nav-link" href="./index.html">Студия</a></li>
+                <li><a class="link activ-element nav-link" href="#filter">Портфолио</a></li>
+                <li><a class="link nav-link" href="#contacts">Контакты</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><a href="mailo:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+380961111111</a></li>
+        
+        <ul class="list communication">
+            <li><a class="link nav-link" href="mailo:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="link nav-link" href="tel:+380961111111">+380961111111</a></li>
         </ul>
     </header>
 
@@ -31,7 +39,7 @@
 <!--Ряд из 5-ти кнопок-фильтров. Скрыт заголовок-->
         <saction id="filter">
             <h1 hidden>Фильтр</h1>
-            <ul>
+            <ul class="list">
                 <li>
                     <button type="button">Все</button>
                 </li>
@@ -50,7 +58,7 @@
             </ul>
             </saction>
 <!--Cписок из 9-х картинок c 9-ю проектами. Скрыт заголовок-->
-            <ul>
+            <ul class="list">
                 <li>
                     <button type="button">
                         <img 
@@ -86,7 +94,7 @@
                         alt="Изображение рыбы с надписью названия ресторана" 
                         width="370" 
                         height="294" />
-                    </button
+                    </button>
                     <section>
                         <h2>Ресторан<span lang="en"> Seafood</span></h2>
                         <p>Приложение</p>
@@ -192,19 +200,18 @@
     <footer>
         <section>
             <address id="contacts">
-                <ul>
+                <ul class="list" >
                     <li>
-                        <a href="./index.html" hreflang="en">WebStudio</a>
+                        <a class="link" href="./index.html" hreflang="en">WebStudio</a>
                     </li>
                     <li>
-                        <a href="https://goo.gl/maps/MdQDLqu88i6RNA2y6" target="_blank" rel="noopener noreferrer">г. Киев,
-                            пр-т Леси Украинки, 26</a>
+                        <a class="link" href="https://goo.gl/maps/MdQDLqu88i6RNA2y6" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
                     </li>
                     <li>
-                        <a href="mailo:info@devstudio.com">info@devstudio.com</a>
+                        <a class="link" href="mailo:info@devstudio.com">info@devstudio.com</a>
                     </li>
                     <li>
-                        <a href="tel:+380961111111">+380961111111</a>
+                        <a class="link" href="tel:+380961111111">+380961111111</a>
                     </li>
                 </ul>
             </address>

@@ -5,42 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
-    <>
 </head>
 <body>
 
     <header>
         <nav>
-        <a href="./index.html" hreflang="en"><span>Web</span>Studio</a>
-        <ul>
-            <!--Навигация на другие станицы-->
-            <li><a href="#studio">Студия</a></li>
-            <li><a href="./portfolio.html" >Портфолио</a></li>
-            <li><a href="#contacts">Контакты</a></li>
-        </ul>
+        <a class="link logo" href="./index.html" hreflang="en">
+            <span class="logo-style">Web</span>Studio
+        </a>
+        <ul class="list navigation">
+            <li><a class="link activ-element nav-link" href="#studio">Студия</a></li>
+            <li><a class="link nav-link" href="./portfolio.html">Портфолио</a></li>
+            <li><a class="link nav-link" href="#contacts">Контакты</a></li>
+        </ul> 
         </nav>
 
-        <ul>
-            <!--Ссылки на телефон и электронный адрес?-->
-            <li><a href="mailo:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+380961111111</a></li>
+        <ul class="list communication">
+            <li><a class="link activ-element nav-link" href="mailo:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="link nav-link" href="tel:+380961111111">+380961111111</a></li>
         </ul>
     </header>
 
     <main>
         <!--Главный герой. Должен находиться в хеддере?-->
         <div>
-            <section id="studio">
-                <h1>Эффективные решения <br/>для вашего бизнеса</h1>
-                <button type="button">Заказать услугу</button>
+            <section class="section-hiro" id="studio">
+                <h1 class="headlines-hero">Эффективные решения <br/>для вашего бизнеса</h1>
+                <button class="button-hero" type="button">Заказать услугу</button>
             </section>
         </div>
 
         <!--Секция 4-х блоков с заголовками и текстом под ними. Скрыт заголовок-->
         <section>
             <h2 hidden>Секция качества</h2>
-            <ul>
+            <ul class="list">
                 <li>
                     <h3>Внимание к деталям</h3>
                     <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -64,7 +71,7 @@
         <section>
             <h2>Чем мы занимаемся</h2>
 
-            <ul>
+            <ul class="list">
                 <li><img src="./images/img1.jpg" alt="Изображение процесса написания кода" width="370" height="294"/></li>
                 <li><img src="./images/img2.jpg" alt="Изображение процесса создания приложения для телефона" width="370" height="294"/></li>
                 <li><img src="./images/img3.jpg" alt="Изображение процесса создания веб-дизайна" width="370" height="294"/></li>
@@ -75,7 +82,7 @@
         <!--Секция ряд из 4-х фотографий c именами и должностями-->
         <section>
             <h2>Наша команда</h2>
-            <ul>
+            <ul class="list">
                 <li>
                     <img src="./images/foto1.jpg" alt="Молодой тёмноволосый мужчина в очках и в коричневой рубашке" width="270"/>
                     <h3>Игорь Демьяненко</h3>
@@ -108,18 +115,18 @@
     <footer>
         <section id="contacts">
             <address>
-            <ul>
+            <ul class="list">
                 <li>
-                    <a href="./index.html" hreflang="en">WebStudio</a>
+                <a class="link" href="./index.html" hreflang="en">WebStudio</a>
                 </li>
                 <li>
-                <a href="https://goo.gl/maps/MdQDLqu88i6RNA2y6" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
+                <a class="link" href="https://goo.gl/maps/MdQDLqu88i6RNA2y6" target="_blank" rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
                 </li>
                 <li>
-                <a href="mailo:info@devstudio.com">info@devstudio.com</a>
+                <a class="link" href="mailo:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li>
-                <a href="tel:+380961111111">+380961111111</a>
+                <a class="link" href="tel:+380961111111">+380961111111</a>
                 </li>
             </ul>
             </address>
