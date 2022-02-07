@@ -43,6 +43,7 @@ body {
 .header {
   background: #ffffff;
 }
+
 .logo-header {
   font-family: var(--font-family-logo);
   font-weight: 700;
@@ -68,6 +69,9 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: var(--latter-spacing-minimum);
+}
+.communication-color-link {
+  color: var(--color-theme-light-secondary);
 }
 a {
   color: #212121;
@@ -137,7 +141,6 @@ a {
   background-color: var(--background-color-section-team);
 }
 .studio-section-team-list-img {
-  /*background: url();*/
   border-radius: 0px;
 }
 .studio-section-team-header {
@@ -201,7 +204,7 @@ address {
   letter-spacing: var(--latter-spacing-mean);
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
   color: var(--color-theme-dark-primary);
 }
 .mailo-link,
@@ -210,6 +213,53 @@ address {
   letter-spacing: var(--latter-spacing-mean);
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+}
+
+/*==============================PORTFOLIO=====================================*/
+
+/*-----СЕКЦИЯ ФИЛЬТРЫ-----*/
+
+.portfolio-section-work-examples {
+  background-color: var(--background-color-primary);
+}
+.portfolio-filter-all {
+  font-family: var(--font-family-primary);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: var(--latter-spacing-mean);
+  background: var(--color-accent);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  text-align: center;
+  border-radius: 4px;
+  color: #ffffff;
+}
+.portfolio-filter {
+  font-family: var(--font-family-primary);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: var(--latter-spacing-mean);
+  color: #212121;
+}
+/*-----СЕКЦИЯ ПРИМЕРЫ РАБО-----*/
+.portfolio-work-example-heder {
+  font-family: var(--font-family-primary);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: var(--latter-spacing-maximum);
+  color: var(--color-theme-light-primary);
+}
+.portfolio-work-example-text {
+  font-family: var(--font-family-primary);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: var(--latter-spacing-mean);
+  color: var(--color-theme-light-secondary);
 }
