@@ -185,7 +185,7 @@ a {
 address {
   font-style: normal;
 }
-.information-contacts {
+.information {
   width: 231px;
   height: 81px;
   left: 215px;
@@ -247,7 +247,7 @@ address {
   color: #212121;
 }
 /*-----СЕКЦИЯ ПРИМЕРЫ РАБО-----*/
-.portfolio-work-example-heder {
+.portfolio-work-example-header {
   font-family: var(--font-family-primary);
   font-weight: 700;
   font-size: 18px;

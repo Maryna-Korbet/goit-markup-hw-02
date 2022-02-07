@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header class="header">
+    <header>
         <nav>
             <a class="link logo-header" href="./index.html" hreflang="en">
                 <span class="logo-style">Web</span>Studio
@@ -29,11 +29,7 @@
             <li><a class="link properties-link communication-color-link" href="tel:+380961111111">+380961111111</a></li>
         </ul>
     </header>
-    <main>
-        <section class="portfolio-section-work-examples">
-<!--СЕКЦИЯ ФИЛЬТРЫ-->
-        <saction id="filter">
-            <h1 hidden >Фильтр</h1>
+    <main class="portfolio-section-work-examples">
             <ul class="list">
                 <li>
                     <button class="portfolio-filter-all current" type="button">Все</button>
@@ -51,133 +47,68 @@
                     <button class="portfolio-filter current" type="button">Маркетинг</button>
                 </li>
             </ul>
-<!--СЕКЦИЯ ПРИМЕРЫ РАБОТ-->
-        </saction class="portfolio-work-example">
             <ul class="list">
                 <li>
-                    <img 
-                    src="./images/portfolio1.jpg" 
-                    alt="Изображение ноутбука на котором открыта сраница сайта технокряк" 
-                    width="370"
-                    height="294"
-                    />
-                    <section>
-                        <h2 class="portfolio-work-example-heder">Технокряк</h2>
-                        <p class="portfolio-work-example-text" >Веб-сайт</p>
-                    </section>   
+                    <img src="./images/portfolio1.jpg" alt="Изображение ноутбука на котором открыта сраница сайта технокряк"
+                        width="370" height="294" />
+                    <h2 class="portfolio-work-example-header">Технокряк</h2>
+                    <p class="portfolio-work-example-text">Веб-сайт</p>
                 </li>
                 <li>
-                    <img 
-                    src="./images/portfolio2.jpg" 
-                    alt="Изображение как двое мужчин играют в баскетбол"
-                    width="370" 
-                    height="294" 
-                    />
-                    <section>
-                        <h2 class="portfolio-work-example-heder">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-                        <p class="portfolio-work-example-text">Дизайн</p>
-                    </section>    
+                    <img src="./images/portfolio2.jpg" alt="Изображение как двое мужчин играют в баскетбол" width="370"
+                        height="294" />
+                    <h2 class="portfolio-work-example-header">Постер<span lang="en">New Orlean vs Golden Star</span></h2>
+                    <p class="portfolio-work-example-text">Дизайн</p>
                 </li>
                 <li>
-                    <img 
-                    src="./images/portfolio3.jpg" 
-                    alt="Изображение рыбы с надписью названия ресторана" 
-                    width="370" 
-                    height="294" />
-                    <section>
-                        <h2 class="portfolio-work-example-heder">Ресторан<span lang="en"> Seafood</span></h2>
-                        <p class="portfolio-work-example-text">Приложение</p>
-                    </section>    
+                    <img src="./images/portfolio3.jpg" alt="Изображение рыбы с надписью названия ресторана" width="370"
+                        height="294" />
+                    <h2 class="portfolio-work-example-header">Ресторан<span lang="en"> Seafood</span></h2>
+                    <p class="portfolio-work-example-text">Приложение</p>
                 </li>
                 <li>
-                    <img 
-                    src="./images/portfolio4.jpg" 
-                    alt="Изображение наушников черного цвета" 
-                    width="370"
-                    height="294" 
-                    />
-                    <section>
-                        <h2 class="portfolio-work-example-heder">Проект<span lang="en"> Prime</span></h2>
-                        <p class="portfolio-work-example-text">Маркетинг</p>
-                    </section>    
+                    <img src="./images/portfolio4.jpg" alt="Изображение наушников черного цвета" width="370" height="294" />
+                    <h2 class="portfolio-work-example-header">Проект<span lang="en"> Prime</span></h2>
+                    <p class="portfolio-work-example-text">Маркетинг</p>
                 </li>
                 <li>
-                    <img 
-                    src="./images/portfolio5.jpg" 
-                    alt="Изображение двух бумажніх коробок белого и коричневого цвета" 
-                    width="370" 
-                    height="294" 
-                    />
-                    <section>
-                        <h2 class="portfolio-work-example-heder">Проект<span lang="en"> Boxes</span></h2>
-                        <p class="portfolio-work-example-text">Приложение</p>
-                    </section>
+                    <img src="./images/portfolio5.jpg" alt="Изображение двух бумажніх коробок белого и коричневого цвета"
+                        width="370" height="294" />
+                    <h2 class="portfolio-work-example-header">Проект<span lang="en"> Boxes</span></h2>
+                    <p class="portfolio-work-example-text">Приложение</p>
                 </li>
                 <li>
-                    <img 
-                    src="./images/portfolio6.jpg" 
-                    alt="Изображение монитора на котором откріт веб-сайт компании"
-                    width="370" 
-                    height="294" 
-                    />
-                    <section>
-                        <h2 class="portfolio-work-example-heder" lang="en">Inspiration has no Borders</h2>
-                        <p class="portfolio-work-example-text">Веб-сайт</p>
-                    </section>
+                    <img src="./images/portfolio6.jpg" alt="Изображение монитора на котором открыт веб-сайт компании" width="370"
+                        height="294" />
+                    <h2 class="portfolio-work-example-header"><span lang="en">Inspiration has no Borders</span></h2>
+                    <p class="portfolio-work-example-text">Веб-сайт</p>
                 </li>
                 <li>
-                    <img 
-                    src="./images/portfolio7.jpg" 
-                    alt="Изображение расскрытой книги"
-                    width="370" 
-                    height="294" 
-                    />
-                    <section>
-                        <h2 class="portfolio-work-example-heder">Издание<span lang="en"> Limited Edition</span></h2>
-                        <p class="portfolio-work-example-text">Дизайн</p>
-                    </section>   
+                    <img src="./images/portfolio7.jpg" alt="Изображение расскрытой книги" width="370" height="294" />
+                    <h2 class="portfolio-work-example-header">Издание<span lang="en"> Limited Edition</span></h2>
+                    <p class="portfolio-work-example-text">Дизайн</p>
                 </li>
                 <li>
-                    <img 
-                    src="./images/portfolio7.jpg" 
-                    alt="Изображение расскрытой книги"
-                    width="370" 
-                    height="294" 
-                    />
-                    <section>
-                        <h2 class="portfolio-work-example-heder">Издание<span lang="en"> Limited Edition</span></h2>
-                        <p class="portfolio-work-example-text">Дизайн</p>
-                    </section>   
+                    <img src="./images/portfolio7.jpg" alt="Изображение расскрытой книги" width="370" height="294" />
+                    <h2 class="portfolio-work-example-header">Издание<span lang="en"> Limited Edition</span></h2>
+                    <p class="portfolio-work-example-text">Дизайн</p>
                 </li>
                 <li>
-                    <img 
-                    src="./images/portfolio8.jpg" 
-                    alt="Изображение бумажной бирки с надписью" 
-                    width="370" 
-                    height="294" 
-                    />
-                    <section>
-                        <h2 class="portfolio-work-example-heder">Проект<span lang="en"> LAB</span></h2>
-                        <p class="portfolio-work-example-text">Маркетинг</p>
-                    </section>
+                    <img src="./images/portfolio8.jpg" alt="Изображение бумажной бирки с надписью" width="370" height="294" />
+                    <h2 class="portfolio-work-example-header">Проект<span lang="en"> LAB</span></h2>
+                    <p class="portfolio-work-example-text">Маркетинг</p>
                 </li>
                 <li>
-                    <img 
-                    src="./images/portfolio9.jpg" 
-                    alt="Изображение рук которые печатают на нойтбуке" 
-                    width="370"
-                    height="294" 
-                    />
-                    <section>
-                        <h2 class="portfolio-work-example-heder" lang="en">Growing Business</h2>
-                        <p class="portfolio-work-example-text">Приложение</p>
-                    </section>
+                    <img src="./images/portfolio9.jpg" alt="Изображение рук которые печатают на нойтбуке" width="370"
+                        height="294" />
+                    <h2 class="portfolio-work-example-header"><span lang="en">Growing Business</span></h2>
+                    <p class="portfolio-work-example-text">Приложение</p>
                 </li>
             </ul>
-        </section>
     </main>
     <footer class="footer">
-        <section class="information-contacts" id="contacts">
+        <section class="information" id="contacts">
+            <h2 hidden>Контакты</h2>
             <a class="link logo-footer" href="./index.html" hreflang="en">
                 <span class="logo-style">Web</span>Studio
             </a>
