@@ -185,11 +185,11 @@ a {
 address {
   font-style: normal;
 }
-.information {
+/*.information {
   width: 231px;
   height: 81px;
   left: 215px;
-  top: 2208px;
+  top: 2208px;*/
 }
 .logo-footer {
   font-family: var(--font-family-logo);
