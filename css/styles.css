@@ -11,6 +11,10 @@
 ul {
   list-style: none;
 }
+.button-properties:hover,
+.button-properties:focus {
+  color: #2196f3;
+}
 
 /*-----ПЕРЕМЕННЫЕ-----*/
 :root {
